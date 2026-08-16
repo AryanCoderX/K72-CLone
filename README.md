@@ -1,16 +1,40 @@
-# React + Vite
+# K72 Agency Website Clone 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A frontend clone of the K72 agency website built for learning and practicing modern web development.
 
-Currently, two official plugins are available:
+## 🛠️ Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* React
+* Tailwind CSS
+* GSAP
+* React Router
+* Vite
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Responsive design
+* GSAP animations
+* Smooth page transitions
+* Scroll animations
+* Interactive hover effects
+* Multiple pages
+* Responsive layouts
 
-## Expanding the ESLint configuration
+## 🚀 Run Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/AryanCoderX/K72-CLone.git
+cd K72-CLone
+npm install
+npm run dev
+```
+
+## 🙏 Inspiration
+
+Inspired by the K72 website and a YouTube video by **Sheriyans Coding School**.
+
+This project was created for **educational and practice purposes only**.
+
+## 🔗 Links
+
+**Live:** https://k72clone-zeta.vercel.app/
