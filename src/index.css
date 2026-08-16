@@ -1,0 +1,147 @@
+@import "tailwindcss";
+html,
+body {
+  margin: 0;
+}
+* {
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+@font-face {
+  font-family: "MyFont";
+  src: url("./assets/Font/Lausanne-300.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MyFont";
+  src: url("./assets/Font/Lausanne-500.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.loader {
+  width: 45px;
+  aspect-ratio: 1;
+  --c: no-repeat linear-gradient(#fff 0 0);
+
+  background:
+    var(--c) 0% 100%,
+    var(--c) 50% 100%,
+    var(--c) 100% 100%;
+
+  animation: l2 1s infinite linear;
+}
+
+@keyframes l2 {
+  0% {
+    background-size:
+      20% 100%,
+      20% 100%,
+      20% 100%;
+  }
+
+  20% {
+    background-size:
+      20% 60%,
+      20% 100%,
+      20% 100%;
+  }
+
+  40% {
+    background-size:
+      20% 80%,
+      20% 60%,
+      20% 100%;
+  }
+
+  60% {
+    background-size:
+      20% 100%,
+      20% 80%,
+      20% 60%;
+  }
+
+  80% {
+    background-size:
+      20% 100%,
+      20% 100%,
+      20% 80%;
+  }
+
+  100% {
+    background-size:
+      20% 100%,
+      20% 100%,
+      20% 100%;
+  }
+}
+
+
+.moveX{
+  animation: infiniteXloop;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes infiniteXloop {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.moveFirstName {
+  display: flex;
+  width: max-content;
+  animation: firstNameLoop 10s linear infinite;
+}
+
+.moveSecondName {
+  display: flex;
+  width: max-content;
+  animation: secondNameLoop 10s linear infinite;
+}
+
+@keyframes firstNameLoop {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes secondNameLoop {
+  from {
+    transform: translateX(-50%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes infiniteXloop {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.dark{
+  background-color: black;
+  color: white;
+}
