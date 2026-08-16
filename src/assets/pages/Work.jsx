@@ -24,7 +24,7 @@ import Logobtn from "../components/Logobtn";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
-import HoverNav from "../components/hoverNav";
+import HoverNav from "../components/HoverNav";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
